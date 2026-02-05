@@ -1,0 +1,11 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": 3306,
+  "username": "newuser",
+  "password": "password",
+  "database": "airbnb",
+  "entities": ["database/**/*.entity.ts"],
+  "synchronize": true,
+  "logging": false
+}
